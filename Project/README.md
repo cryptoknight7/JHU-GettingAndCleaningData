@@ -21,13 +21,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. Appropriately labels the data set with descriptive activity names.
 1. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
-
 Running the Project
 -------------------
-Run the R script `run_analysis.r`.
+Run the R script `run_analysis.r`, which calls `run_analysis.Rmd`, where most of the project analysis occurs.  This latter script performs the requested analysis, creates the tidy dataset, and creates the codebook for the project (`create_codebook.Rmd`).
 
-*NOTE: The `setwd()` function parameter in the R script above needs to be updated to a location on local disk.*
+* *NOTE: The `setwd()` function parameter in the R script above needs to be updated to a location on local disk.*
 
 Project Output
 --------------
